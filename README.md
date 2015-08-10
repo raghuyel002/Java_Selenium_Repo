@@ -17,7 +17,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class New {
+public class Sweety {
 	String url = "http://damp-sands-8561.herokuapp.com";
 	String successSignInMsg = "Signed in successfully.";
 	String successEntryMsg = "Entry was successfully created.";
