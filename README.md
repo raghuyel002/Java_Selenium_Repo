@@ -1,4 +1,3 @@
-package sweety_Tests;
 
 import org.testng.annotations.Test;
 import java.text.DateFormat;
