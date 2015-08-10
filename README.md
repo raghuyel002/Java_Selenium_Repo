@@ -1,4 +1,3 @@
-
 import org.testng.annotations.Test;
 import java.text.DateFormat;
 import java.text.Format;
@@ -76,7 +75,7 @@ public class Sweety {
 	public void deleteBloodReadings() {
 		navigateToPage(entryPage);
 		try {
-			while (driver.findElement(By.xpath(deleteEntries)).isEnabled()) {
+			while (driver.findElement(By.xpath(deleteEntries)).isDisplayed()) {
 				driver.findElement(By.xpath(deleteEntries)).click();
 				Alert alt = driver.switchTo().alert();
 				alt.accept();
